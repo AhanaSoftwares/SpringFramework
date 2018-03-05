@@ -23,6 +23,8 @@ public class MessageDIClient {
 		injector = new SMSServiceInjector();
 		app = injector.getConsumer();
 		app.processMessages(msg, phone);
+		
+		//   
 	}
 
 }
